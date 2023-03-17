@@ -1,3 +1,7 @@
+make -j && ./main -m ./models/7B/ggml-model-q4_0.bin -p "Author-contribution statements and acknowledgements in research papers should state clearly and specifically whether, and to what extent, the authors used AI technologies such as ChatGPT " -t 8 -n 128
+
+
+
 # llama.cpp
 
 [![Actions Status](https://github.com/ggerganov/llama.cpp/workflows/CI/badge.svg)](https://github.com/ggerganov/llama.cpp/actions)
